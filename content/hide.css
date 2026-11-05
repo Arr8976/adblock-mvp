@@ -1,0 +1,10 @@
+/* Injected hide class used by content scripts */
+.adblock-mvp-hide {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  max-height: 0 !important;
+  max-width: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+}

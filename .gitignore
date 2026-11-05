@@ -1,0 +1,19 @@
+# Browser / editor
+_metadata/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Secrets / local
+.env
+.env.*
+*.pem
+*.key
+
+# Packaged builds
+*.zip
+*.crx
+dist/
+node_modules/

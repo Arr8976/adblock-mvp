@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Adblock MVP</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Adblock MVP</h1>
+      <p class="sub">v0.3.3 · YouTube + 치지직 (shape rewrite)</p>
+
+      <label class="row">
+        <span>전체 사용</span>
+        <input type="checkbox" id="enabled" />
+      </label>
+      <label class="row">
+        <span>YouTube</span>
+        <input type="checkbox" id="youtube" />
+      </label>
+      <label class="row">
+        <span>치지직 (CHZZK)</span>
+        <input type="checkbox" id="chzzk" />
+      </label>
+
+      <div class="stat">
+        <span>이번 세션 차단 수</span>
+        <strong id="count">0</strong>
+      </div>
+      <button id="reset" type="button">카운트 리셋</button>
+      <p class="hint">변경 후 해당 탭을 새로고침하세요.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
